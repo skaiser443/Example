@@ -17,6 +17,7 @@
         // Our chart has two lifecycle functions, setup and update. The setup function is only ever
         // called right here; we'll use it to create anything that doesn't change depending on what
         // year is selected. The update function, however, is called every time the year changes.
+        // this is only a test edit.
         this.setup();
         this.update(app.globals.selected.year);
     };
